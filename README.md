@@ -1,1 +1,1 @@
-## [Merc Calculator](https://warren1001.github.io/Merc_Calculator/)
+## [D2R Leech Overflow Calculator](https://warren1001.github.io/Leech_Overflow/)
