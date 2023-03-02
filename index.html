@@ -36,11 +36,11 @@
     <label for="special" class="displayLabel" title="If damage in bits is > 1048576, convert damage in bits to a 64 bit signed integer before multiplication.">Special precision?:</label>
     <input type="text" id="special" title="If damage in bits is > 1048576, convert damage in bits to a 64 bit signed integer before multiplication." readonly>
     <br>
-    <label for="numeratorNoOverflow" class="displayLabel" title="Multiply Damage (bit) and Leech (bit) together without the overflow. This is the step where the overflow can happen.">Numerator (intended):</label>
-    <input type="text" id="numeratorNoOverflow" title="Multiply Damage (bit) and Leech (bit) together without the overflow. This is the step where the overflow can happen." readonly>
+    <label for="numeratorNoOverflow" class="displayLabel" title="Multiply Leech (bit) and Damage (bit) together but without any overflow. This is the step where the overflow can happen.">Numerator (intended):</label>
+    <input type="text" id="numeratorNoOverflow" title="Multiply Leech (bit) and Damage (bit) together but without any overflow. This is the step where the overflow can happen." readonly>
     <br>
-    <label for="numeratorOverflow" class="displayLabel" title="Multiply Damage (bit) and Leech (bit) together with the overflow. This is the step where the overflow can happen.">Numerator (overflow):</label>
-    <input type="text" id="numeratorOverflow" title="Multiply Damage (bit) and Leech (bit) together without the overflow. This is the step where the overflow can happen." readonly>
+    <label for="numeratorOverflow" class="displayLabel" title="Multiply Leech (bit) and Damage (bit) together and keep any overflow. This is the step where the overflow can happen.">Numerator (overflow):</label>
+    <input type="text" id="numeratorOverflow" title="Multiply Leech (bit) and Damage (bit) together and keep any overflow. This is the step where the overflow can happen." readonly>
     <br>
     <label for="finalLeechExtraBits" class="displayLabel" title="Divide the overflown numerator value by 100 for the % leech.">Final Leech (extra bits):</label>
     <input type="text" id="finalLeechExtraBits" title="Divide the overflown numerator value by 100 for the % leech." readonly>
