@@ -29,7 +29,7 @@ function load() {
 		leech = getNumberFromInput(NUMBER_LEECH)
 
 		let damageBits = i(damage * 256);
-		let leechBits = i((leech << 6) / difficultyPenalty);
+		let leechBits = i(i(leech << 6) / difficultyPenalty);
 		let notSpecial = damageBits <= 1048576;
 		let numeratorNoOverflow = damageBits * leechBits;
 		let numeratorOverflow = notSpecial ? i(numeratorNoOverflow) : numeratorNoOverflow;
